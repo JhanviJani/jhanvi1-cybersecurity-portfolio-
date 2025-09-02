@@ -140,7 +140,7 @@
                 <!-- Business & Professional Card -->
                 <div class="bg-[#161b22] p-8 rounded-xl shadow-lg border-2 border-[#21262d] transition-all transform hover:scale-105 hover:border-cyan-600">
                     <div class="flex items-center space-x-4 mb-4">
-                        <svg class="h-8 w-8 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 11a4 4 0 100-8 4 4 0 000 8zm8 6h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm-2-2h2v2h-2v-2zm-2-2h2v2h-2v-2zM4 17h-2v2h2v-2zm2 0h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2z"/></svg>
+                        <svg class="h-8 w-8 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 11a4 4 0 100-8 4 4 0 000 8zm8 6h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm-2-2h2v2h-2v-2zM4 17h-2v2h2v-2zm2 0h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2z"/></svg>
                         <h3 class="text-xl font-bold text-cyan-400">Business & Professional</h3>
                     </div>
                     <ul class="list-disc list-inside space-y-2 text-gray-300">
@@ -234,22 +234,7 @@
     <footer class="bg-[#010409] py-6 text-center text-gray-500 text-sm">
         &copy; 2025 Jhanvi Jani. All rights reserved.
     </footer>
-
-    <script>
-        function copyToClipboard(text) {
-            const el = document.createElement('textarea');
-            el.value = text;
-            document.body.appendChild(el);
-            el.select();
-            document.execCommand('copy');
-            document.body.removeChild(el);
-            // Optional: Provide visual feedback
-            const originalButtonText = document.querySelector('button').innerText;
-            document.querySelector('button').innerText = 'Copied!';
-            setTimeout(() => {
-                document.querySelector('button').innerText = originalButtonText;
-            }, 2000);
-        }
-    </script>
 </body>
 </html>
+
+
