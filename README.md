@@ -118,6 +118,12 @@
                         <h3 class="text-xl font-bold text-cyan-400">Cybersecurity & GRC</h3>
                     </div>
                     <ul class="list-disc list-inside space-y-2 text-gray-300">
+                    <li>Security Governance & Risk (GRC)</li>
+    <li>**NIS2** Readiness & **ISO 27001** Implementation</li>
+    <li>Risk Assessment (**D-mærket** & NIST Frameworks)</li>
+    <li>Security Policy Design & Auditing</li>
+    <li>Identity & Access Management (IAM)</li>
+    <li>Proactive Threat & Vulnerability Management</li>
                         <li>Security Auditing (ISO 27001, OWASP Top 10, NIST)</li>
                         <li>Vulnerability & Risk Assessment</li>
                         <li>Phishing Awareness & Digital Forensics</li>
