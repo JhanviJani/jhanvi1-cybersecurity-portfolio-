@@ -70,11 +70,11 @@
                 <img class="mx-auto rounded-full w-40 h-40 object-cover shadow-xl border-4 border-cyan-500" src="https://placehold.co/150x150/24b47e/ffffff?text=Jhanvi+Jani" alt="Jhanvi Jani Profile Picture">
             </div>
             <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight animate-fade-in">
-                Cybersecurity Analyst | GRC & Risk Management
-            </h1>
-            <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 animate-fade-in" style="animation-delay: 0.4s;">
-                "I bridge the gap between technical security and business strategy, ensuring that security measures don't just protect, they enable growth."
-            </p>
+    GRC Analyst & Security Implementer | NIS2 Readiness & Azure Security
+</h1>
+<p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 animate-fade-in" style="animation-delay: 0.4s;">
+    "I translate complex regulatory demands (ISO 27001, NIS2) into actionable project deliverables, prioritizing risk mitigation and operational resilience through a finance-backed lens."
+</p>
             <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4 animate-fade-in" style="animation-delay: 0.6s;">
                 <!-- Connects directly to your LinkedIn profile -->
                 <a href="https://linkedin.com/in/jhanvi-jani" target="_blank" class="bg-cyan-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-cyan-500 transition-all transform hover:scale-105">
