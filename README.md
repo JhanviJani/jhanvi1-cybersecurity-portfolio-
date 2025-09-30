@@ -93,6 +93,12 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">About Me</h2>
             <div class="max-w-4xl mx-auto text-gray-300 space-y-4">
+    <p>I am a **Cybersecurity GRC Analyst** and Implementer focused on fortifying digital security for Danish businesses. My unique perspective is driven by a strong **Master’s background in Finance and a decade in business operations**, allowing me to approach security as a critical component of risk management and strategic growth.</p>
+    
+    <p>My expertise lies in **Governance, Risk, and Compliance (GRC)**, with hands-on experience in executing security audits against frameworks like **ISO 27001 and NIST**. I am a proven implementer, having managed security policy deployment and achieving a documented **15% reduction in phishing rates** through targeted awareness programs.</p>
+    
+    <p>I am actively seeking full-time roles in Copenhagen—particularly within the **BFSI or large enterprise sectors**—where I can leverage my technical certification (e.g., **AZ-500**) and business acumen to drive measurable improvements in compliance and operational resilience.</p>
+</div>
                 <p>As a cybersecurity analyst with a strong foundation in finance and business operations, I offer a unique perspective on managing and mitigating digital risk. My background in procurement and strategic business management allows me to bridge the gap between technical security controls and their real-world impact on an organization’s bottom line and strategic goals.</p>
                 <p>I specialize in Governance, Risk, and Compliance (GRC), with hands-on experience in implementing frameworks such as ISO 27001 and NIST. In my recent internship, I led security audits that identified key vulnerabilities and contributed to a 15% reduction in phishing rates through targeted awareness programs. I also volunteer as a facilitator at the ReDI School of Digital Integration, helping adults learn foundational cybersecurity skills.</p>
                 <p>I am actively seeking full-time opportunities in Copenhagen or elsewhere in Denmark where I can leverage my blended technical and business acumen to help companies build robust and resilient security postures.</p>
