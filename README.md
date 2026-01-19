@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -70,7 +70,7 @@
                 <img class="mx-auto rounded-full w-40 h-40 object-cover shadow-xl border-4 border-cyan-500" src="https://placehold.co/150x150/24b47e/ffffff?text=Jhanvi+Jani" alt="Jhanvi Jani Profile Picture">
             </div>
             <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight animate-fade-in">
-    GRC Analyst & Security Implementer | NIS2 Readiness & Azure Security
+  Cybersecurity Specialist | Top 100 Global Performer (Nokia/Women4Cyber) | PMI-RMP® Certified Risk Professional. Dedicated to securing the 5G ecosystem and critical infrastructure through advanced threat modeling and risk mitigation.
 </h1>
 <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 animate-fade-in" style="animation-delay: 0.4s;">
     "I translate complex regulatory demands (ISO 27001, NIS2) into actionable project deliverables, prioritizing risk mitigation and operational resilience through a finance-backed lens."
