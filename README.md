@@ -1,266 +1,176 @@
-
-<html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jhanvi's Portfolio</title>
-    <!-- Use the Plus Jakarta Sans font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Load Tailwind CSS via CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: #0d1117; /* Darker, more professional background */
-            color: #c9d1d9; /* Lighter text for contrast */
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1200px;
-        }
-        .section-heading {
-            position: relative;
-            display: inline-block;
-        }
-        .section-heading::after {
-            content: '';
-            position: absolute;
-            bottom: -8px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 50px;
-            height: 4px;
-            background-color: #24b47e;
-            border-radius: 9999px;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .animate-fade-in {
-            animation: fadeIn 1s ease-out forwards;
-        }
-    </style>
-</head>
 <body class="antialiased">
 
-    <!-- Header Section -->
-    <header class="bg-[#010409] py-6 shadow-xl sticky top-0 z-50">
+    <header class="bg-[#010409] py-6 shadow-xl sticky top-0 z-50 border-b border-gray-800">
         <div class="container mx-auto px-6 flex justify-between items-center">
-            <div class="text-2xl font-bold text-white">
-                Jhanvi Jani
+            <div class="text-2xl font-bold text-white tracking-tight">
+                Jhanvi <span class="text-cyan-500">Jani</span>
             </div>
             <nav>
-                <ul class="flex space-x-6">
-                    <li><a href="#about" class="text-gray-300 hover:text-cyan-400 transition-colors">About</a></li>
-                    <li><a href="#skills" class="text-gray-300 hover:text-cyan-400 transition-colors">Skills</a></li>
-                    <li><a href="#certs" class="text-gray-300 hover:text-cyan-400 transition-colors">Certifications</a></li>
-                    <li><a href="#projects" class="text-gray-300 hover:text-cyan-400 transition-colors">Projects</a></li>
-                    <li><a href="#contact" class="text-gray-300 hover:text-cyan-400 transition-colors">Contact</a></li>
+                <ul class="flex space-x-8">
+                    <li><a href="#about" class="text-gray-300 hover:text-cyan-400 transition-colors font-medium">About</a></li>
+                    <li><a href="#skills" class="text-gray-300 hover:text-cyan-400 transition-colors font-medium">Skills</a></li>
+                    <li><a href="#certs" class="text-gray-300 hover:text-cyan-400 transition-colors font-medium">Certs</a></li>
+                    <li><a href="#projects" class="text-gray-300 hover:text-cyan-400 transition-colors font-medium">Experience</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-cyan-400 transition-colors font-medium">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="py-20 text-center bg-[#010409] min-h-screen flex items-center justify-center">
-        <div class="container mx-auto px-6">
-            <div class="animate-fade-in mb-8" style="animation-delay: 0.2s;">
-                <!-- Placeholder for a professional headshot -->
-                <img class="mx-auto rounded-full w-40 h-40 object-cover shadow-xl border-4 border-cyan-500" src="https://placehold.co/150x150/24b47e/ffffff?text=Jhanvi+Jani" alt="Jhanvi Jani Profile Picture">
+    <section class="py-24 bg-[#010409] flex items-center justify-center">
+        <div class="container mx-auto px-6 text-center">
+            <div class="animate-fade-in mb-8">
+                <img class="mx-auto rounded-full w-40 h-40 object-cover shadow-2xl border-4 border-cyan-500/50 p-1" src="https://placehold.co/150x150/24b47e/ffffff?text=Jhanvi+Jani" alt="Jhanvi Jani">
             </div>
-            <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 leading-tight animate-fade-in">
-  Cybersecurity Specialist | Top 100 Global Performer (Nokia/Women4Cyber) | PMI-RMP® Certified Risk Professional. Dedicated to securing the 5G ecosystem and critical infrastructure through advanced threat modeling and risk mitigation.
-</h1>
-<p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 animate-fade-in" style="animation-delay: 0.4s;">
-    I translate complex regulatory demands (ISO 27001, NIS2) into actionable project deliverables, prioritizing risk mitigation and operational resilience through a finance-backed lens.
-</p>
-            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4 animate-fade-in" style="animation-delay: 0.6s;">
-                <!-- Connects directly to your LinkedIn profile -->
-                <a href="https://linkedin.com/in/jhanvi-jani" target="_blank" class="bg-cyan-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-cyan-500 transition-all transform hover:scale-105">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight animate-fade-in">
+                Cybersecurity Specialist & <br><span class="text-cyan-500">Risk Management Professional</span>
+            </h1>
+            <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-10 animate-fade-in" style="animation-delay: 0.2s;">
+                Top 100 Global Performer (Nokia/Women4Cyber) | PMI-RMP® Certified. 
+                Securing the 5G ecosystem and critical infrastructure through finance-backed risk mitigation and GRC expertise.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style="animation-delay: 0.4s;">
+                <a href="https://linkedin.com/in/jhanvi-jani" target="_blank" class="bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 px-8 rounded-lg transition-all shadow-lg shadow-cyan-900/20">
                     Connect on LinkedIn
                 </a>
-                <!-- NOTE: For this link to work, you must rename your file 'CV Jhanvi Jani GRC.pdf' to 'jhanvi-jani-cv.pdf' in your GitHub repository. -->
-                <a href="jhanvi-jani-cv.pdf" download class="bg-gray-700 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-600 transition-all transform hover:scale-105">
+                <a href="jhanvi-jani-cv.pdf" download class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-8 rounded-lg transition-all border border-gray-700">
                     Download CV
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- About Me Section -->
     <section id="about" class="py-20 bg-[#0d1117]">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">About Me</h2>
-            <div class="max-w-4xl mx-auto text-gray-300 space-y-4">
-    <p>I am a Cybersecurity GRC Analyst and Implementer focused on fortifying digital security for Danish businesses. My unique perspective is driven by a strong Master’s background in Finance and a decade in business operations, allowing me to approach security as a critical component of risk management and strategic growth.</p>
-    
-    <p>My expertise lies in Governance, Risk, and Compliance (GRC), with hands-on experience in executing security audits against frameworks like ISO 27001 and NIST. I am a proven implementer, having managed security policy deployment and achieving a documented **15% reduction in phishing rates** through targeted awareness programs.</p>
-    
-    <p>I am actively seeking full-time roles in Copenhagen—particularly within the BFSI or large enterprise sectors, where I can leverage my technical certification (AZ-500) and business acumen to drive measurable improvements in compliance and operational resilience.</p>
-</div>
-                <p>As a cybersecurity analyst with a strong foundation in finance and business operations, I offer a unique perspective on managing and mitigating digital risk. My background in procurement and strategic business management allows me to bridge the gap between technical security controls and their real-world impact on an organization’s bottom line and strategic goals.</p>
-                <p>I specialize in Governance, Risk, and Compliance (GRC), with hands-on experience in implementing frameworks such as ISO 27001 and NIST. In my recent internship, I led security audits that identified key vulnerabilities and contributed to a 15% reduction in phishing rates through targeted awareness programs. I also volunteer as a facilitator at the ReDI School of Digital Integration, helping adults learn foundational cybersecurity skills.</p>
-                <p>I am actively seeking full-time opportunities in Copenhagen or elsewhere in Denmark where I can leverage my blended technical and business acumen to help companies build robust and resilient security postures.</p>
+            <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">Professional Profile</h2>
+            <div class="max-w-3xl mx-auto bg-[#161b22] p-8 md:p-12 rounded-2xl border border-gray-800 shadow-xl">
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    I am a Cybersecurity GRC Analyst and Implementer focused on fortifying digital security for Danish businesses. With a **Master’s in Finance** and a decade in operations, I view security as a strategic growth driver, not just a technical requirement.
+                </p>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    My expertise lies in translating complex regulations (**NIS2, ISO 27001**) into actionable project deliverables. I have a proven track record of reducing risk, including a documented **15% reduction in phishing rates** through targeted awareness programs.
+                </p>
+                <p class="text-gray-300 leading-relaxed font-semibold text-cyan-400">
+                    Currently seeking full-time GRC or Risk roles in Copenhagen's BFSI or Enterprise sectors.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="py-20 bg-[#010409]">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">Skills & Competencies</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Cybersecurity & IT Card -->
-                <div class="bg-[#161b22] p-8 rounded-xl shadow-lg border-2 border-[#21262d] transition-all transform hover:scale-105 hover:border-cyan-600">
-                    <div class="flex items-center space-x-4 mb-4">
-                        <svg class="h-8 w-8 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15.5h2v-2h-2v2zm0-4h2v-6h-2v6z"/></svg>
-                        <h3 class="text-xl font-bold text-cyan-400">Cybersecurity & GRC</h3>
-                    </div>
-                    <ul class="list-disc list-inside space-y-2 text-gray-300">
-                    <li>Security Governance & Risk (GRC)</li>
-    <li>**NIS2** Readiness & **ISO 27001** Implementation</li>
-    <li>Risk Assessment (**D-mærket** & NIST Frameworks)</li>
-    <li>Security Policy Design & Auditing</li>
-    <li>Identity & Access Management (IAM)</li>
-    <li>Proactive Threat & Vulnerability Management</li>
-                        <li>Security Auditing (ISO 27001, OWASP Top 10, NIST)</li>
-                        <li>Vulnerability & Risk Assessment</li>
-                        <li>Phishing Awareness & Digital Forensics</li>
-                        <li>Identity & Access Management (IAM)</li>
-                        <li>Network Security (TCP/IP)</li>
-                        <li>Third-Party Risk Management</li>
+            <h2 class="text-3xl font-bold text-center mb-16 text-white section-heading">Core Competencies</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-[#161b22] p-8 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all">
+                    <h3 class="text-xl font-bold text-cyan-400 mb-4">Cybersecurity & GRC</h3>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li>• NIS2 Readiness & ISO 27001</li>
+                        <li>• Risk Assessment (D-mærket & NIST)</li>
+                        <li>• Security Policy Design</li>
+                        <li>• Identity & Access Management (IAM)</li>
+                        <li>• Threat & Vulnerability Management</li>
                     </ul>
                 </div>
-
-                <!-- Technical Tools & Platforms Card -->
-                <div class="bg-[#161b22] p-8 rounded-xl shadow-lg border-2 border-[#21262d] transition-all transform hover:scale-105 hover:border-cyan-600">
-                    <div class="flex items-center space-x-4 mb-4">
-                        <svg class="h-8 w-8 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.016c-.531 0-1.048.118-1.52.332L2.016 5.86c-.516.234-.848.749-.848 1.304v7.616c0 .555.332 1.069.848 1.303l8.464 3.512c.472.196.988.303 1.519.303s1.047-.107 1.52-.303l8.464-3.512c.516-.234.848-.748.848-1.303V7.164c0-.555-.332-1.069-.848-1.304L13.52 2.348c-.472-.214-.989-.332-1.52-.332zM12 4.5l6.464 2.688L12 9.875 5.536 7.188 12 4.5zm0 15.421l-6.464-2.688V8.125l6.464 2.688 6.464-2.688v9.112l-6.464 2.688z"/></svg>
-                        <h3 class="text-xl font-bold text-cyan-400">Technical Tools & Platforms</h3>
-                    </div>
-                    <ul class="list-disc list-inside space-y-2 text-gray-300">
-                        <li>Splunk</li>
-                        <li>Metasploit</li>
-                        <li>Microsoft Azure</li>
-                        <li>Python & C (scripting)</li>
-                        <li>SAP MM</li>
-                        <li>Wireshark</li>
+                <div class="bg-[#161b22] p-8 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all">
+                    <h3 class="text-xl font-bold text-cyan-400 mb-4">Technical Stack</h3>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li>• Microsoft Azure (AZ-500)</li>
+                        <li>• Splunk & Wireshark</li>
+                        <li>• Python & C Scripting</li>
+                        <li>• SAP MM & Financial Modeling</li>
+                        <li>• Metasploit Framework</li>
                     </ul>
                 </div>
-
-                <!-- Business & Professional Card -->
-                <div class="bg-[#161b22] p-8 rounded-xl shadow-lg border-2 border-[#21262d] transition-all transform hover:scale-105 hover:border-cyan-600">
-                    <div class="flex items-center space-x-4 mb-4">
-                        <svg class="h-8 w-8 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 11a4 4 0 100-8 4 4 0 000 8zm8 6h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm-2-2h2v2h-2v-2zM4 17h-2v2h2v-2zm2 0h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2zm2-2h-2v2h2v-2zm-2-2h2v2h-2v-2z"/></svg>
-                        <h3 class="text-xl font-bold text-cyan-400">Business & Professional</h3>
-                    </div>
-                    <ul class="list-disc list-inside space-y-2 text-gray-300">
-                        <li>Project Management</li>
-                        <li>Financial Analysis</li>
-                        <li>Process Improvement</li>
-                        <li>Data Analysis</li>
-                        <li>Stakeholder Communication</li>
-                        <li>Team Leadership</li>
+                <div class="bg-[#161b22] p-8 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all">
+                    <h3 class="text-xl font-bold text-cyan-400 mb-4">Business Strategy</h3>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li>• Project Risk Management (PMI-RMP)</li>
+                        <li>• Financial Analysis</li>
+                        <li>• Process Improvement</li>
+                        <li>• Stakeholder Communication</li>
+                        <li>• Operational Resilience</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Certifications Section -->
     <section id="certs" class="py-20 bg-[#0d1117]">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">Certifications & Professional Development</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Certifications will be here -->
-                <div class="cert-grid">
-  <div class="cert-card">
-    <h4>PMI Risk Management Professional (PMI-RMP)</h4>
-    <p>Mastery in assessing project risks, identifying global threats, and implementing mitigation strategies to capitalize on strategic opportunities.</p>
-  </div>
-</div>
-                <div class="bg-[#161b22] p-6 rounded-lg text-center transform hover:scale-105 transition-transform border border-[#21262d] hover:border-cyan-600">
-                    <h3 class="font-semibold text-lg text-white">SANS SEC275: Foundations</h3>
+            <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">Certifications</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gradient-to-br from-[#1c2128] to-[#161b22] p-6 rounded-xl border border-cyan-500/30">
+                    <h3 class="font-bold text-white mb-2">PMI-RMP®</h3>
+                    <p class="text-xs text-cyan-400 mb-2 uppercase tracking-widest font-bold">Project Risk Professional</p>
+                    <p class="text-sm text-gray-400">Mastery in identifying global threats and implementing strategic mitigation.</p>
                 </div>
-                <div class="bg-[#161b22] p-6 rounded-lg text-center transform hover:scale-105 transition-transform border border-[#21262d] hover:border-cyan-600">
-                    <h3 class="font-semibold text-lg text-white">MS Azure Security Engineer Associate (AZ-500)</h3>
+                <div class="bg-[#161b22] p-6 rounded-xl border border-gray-800 flex items-center justify-center text-center">
+                    <h3 class="font-semibold text-gray-200">MS Azure Security Engineer (AZ-500)</h3>
                 </div>
-                <div class="bg-[#161b22] p-6 rounded-lg text-center transform hover:scale-105 transition-transform border border-[#21262d] hover:border-cyan-600">
-                    <h3 class="font-semibold text-lg text-white">MS Cybersecurity Fundamentals (SC-900)</h3>
+                <div class="bg-[#161b22] p-6 rounded-xl border border-gray-800 flex items-center justify-center text-center">
+                    <h3 class="font-semibold text-gray-200">SANS SEC275: Foundations</h3>
                 </div>
-                <div class="bg-[#161b22] p-6 rounded-lg text-center transform hover:scale-105 transition-transform border border-[#21262d] hover:border-cyan-600">
-                    <h3 class="font-semibold text-lg text-white">ISC2 Information Security Management</h3>
+                <div class="bg-[#161b22] p-6 rounded-xl border border-gray-800 flex items-center justify-center text-center">
+                    <h3 class="font-semibold text-gray-200">MS Cybersecurity Fundamentals (SC-900)</h3>
                 </div>
-                <div class="bg-[#161b22] p-6 rounded-lg text-center transform hover:scale-105 transition-transform border border-[#21262d] hover:border-cyan-600">
-                    <h3 class="font-semibold text-lg text-white">Cisco Junior Cybersecurity Analyst</h3>
+                <div class="bg-[#161b22] p-6 rounded-xl border border-gray-800 flex items-center justify-center text-center">
+                    <h3 class="font-semibold text-gray-200">ISC2 Info Security Management</h3>
+                </div>
+                <div class="bg-[#161b22] p-6 rounded-xl border border-gray-800 flex items-center justify-center text-center">
+                    <h3 class="font-semibold text-gray-200">Cisco Junior Cyber Analyst</h3>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="py-20 bg-[#010409]">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">Projects & Hands-on Experience</h2>
-            <div class="max-w-4xl mx-auto space-y-8">
-            <div class="special-achievement">
-  <h3>Top 100 Global Performer | Nokia & Women4Cyber</h3>
-  <p><em>Path to Telecom Security Initiative (2025-2026)</em></p>
-  <ul>
-    <li><strong>Competitive Assessment:</strong> Achieved 87% in a scenario-based exam on 5G ecosystem threat mitigation.</li>
-    <li><strong>SBA Security:</strong> Researched vulnerabilities in HTTP/2, JSON signaling, and API discovery (NRF).</li>
-    <li><strong>Advanced Threat Modeling:</strong> Analyzed attack vectors including SUCI/SUPI catchers, RF Jamming, and Interconnect (N32) risks.</li>
-    <li><strong>Post-Quantum Readiness:</strong> Evaluated 'Harvest Now, Decrypt Later' risks for critical infrastructure.</li>
-  </ul>
-</div>
-                <!-- Mastercard Project -->
-                <div class="bg-[#161b22] p-8 rounded-xl shadow-lg border-2 border-[#21262d] space-y-6 transform transition-all hover:border-cyan-600">
-                    <div class="flex items-center space-x-4">
-                        <svg class="h-10 w-10 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 16.5h-1.5V12h-1.5V10.5h3v6zM12 8.25a.75.75 0 110-1.5.75.75 0 010 1.5z"/></svg>
-                        <h3 class="text-2xl font-bold text-cyan-400">Mastercard Cybersecurity Job Simulation</h3>
+            <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">Experience & Initiatives</h2>
+            <div class="max-w-4xl mx-auto space-y-10">
+                
+                <div class="bg-gradient-to-r from-[#0d1117] to-[#161b22] p-8 rounded-2xl border-l-4 border-cyan-500 shadow-xl">
+                    <div class="flex flex-col md:flex-row justify-between mb-6">
+                        <h3 class="text-2xl font-bold text-white italic">Top 100 Global Performer</h3>
+                        <span class="text-cyan-500 font-bold uppercase tracking-widest text-sm">Nokia & Women4Cyber</span>
                     </div>
-                    <p class="text-gray-300">
-                        This project involved identifying phishing emails and designing security awareness training courses. Through this job simulation, I built my skills in problem-solving, data analysis, and data presentation and practiced them in a real-world context. This program confirmed my passion for working in cybersecurity, and I am excited to apply these skills to a Security Awareness team.
-                    </p>
-                    <!-- Update with the actual certificate link -->
-                    <a href="https://example.com/mastercard-certificate.pdf" target="_blank" class="text-white font-bold hover:underline transition-colors text-lg">View Certificate →</a>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-300 text-sm">
+                        <li class="flex items-start"><span class="text-cyan-500 mr-2">▹</span> 87% score in 5G ecosystem threat mitigation exam.</li>
+                        <li class="flex items-start"><span class="text-cyan-500 mr-2">▹</span> Researched HTTP/2 & API discovery (NRF) vulnerabilities.</li>
+                        <li class="flex items-start"><span class="text-cyan-500 mr-2">▹</span> Analyzed SUPI catchers & RF Jamming attack vectors.</li>
+                        <li class="flex items-start"><span class="text-cyan-500 mr-2">▹</span> Evaluated Post-Quantum 'Harvest Now, Decrypt Later' risks.</li>
+                    </ul>
                 </div>
 
-                <!-- TCS Project -->
-                <div class="bg-[#161b22] p-8 rounded-xl shadow-lg border-2 border-[#21262d] space-y-6 transform transition-all hover:border-cyan-600">
-                    <div class="flex items-center space-x-4">
-                        <svg class="h-10 w-10 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 16.5h-1.5V12h-1.5V10.5h3v6zM12 8.25a.75.75 0 110-1.5.75.75 0 010 1.5z"/></svg>
-                        <h3 class="text-2xl font-bold text-cyan-400">TCS: Identity & Access Management (IAM) Project</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-[#161b22] p-6 rounded-xl border border-gray-800">
+                        <h3 class="text-xl font-bold text-cyan-400 mb-3">Mastercard Simulation</h3>
+                        <p class="text-sm text-gray-400 mb-4">Designed security awareness modules and analyzed phishing trends to improve organizational resilience.</p>
+                        <a href="#" class="text-white text-sm font-bold hover:text-cyan-400 transition-colors">View Certificate →</a>
                     </div>
-                    <p class="text-gray-300">
-                        Completed a job simulation collaborating with a Cybersecurity Consulting team. I acquired expertise in IAM principles, cybersecurity best practices, and strategic alignment with business objectives. I also delivered comprehensive documentation and presentations, showcasing my ability to communicate complex technical concepts effectively.
-                    </p>
-                    <!-- Update with the actual certificate link -->
-                    <a href="https://example.com/tcs-certificate.pdf" target="_blank" class="text-white font-bold hover:underline transition-colors text-lg">View Certificate →</a>
+                    <div class="bg-[#161b22] p-6 rounded-xl border border-gray-800">
+                        <h3 class="text-xl font-bold text-cyan-400 mb-3">TCS IAM Project</h3>
+                        <p class="text-sm text-gray-400 mb-4">Consulted on Identity Access Management principles to align technical controls with business growth objectives.</p>
+                        <a href="#" class="text-white text-sm font-bold hover:text-cyan-400 transition-colors">View Certificate →</a>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-[#0d1117]">
+    <section id="contact" class="py-24 bg-[#0d1117]">
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-4 text-white section-heading">Let's Connect</h2>
-            <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-                I'm actively seeking opportunities to apply my unique skill set to a challenging role in the Danish job market. Feel free to connect with me on LinkedIn.
+            <h2 class="text-3xl font-bold mb-6 text-white section-heading">Let's Connect</h2>
+            <p class="text-gray-400 mb-10 max-w-xl mx-auto">
+                Actively open to opportunities in GRC, Compliance, and Risk Management in Copenhagen.
             </p>
-            <div class="flex flex-col md:flex-row justify-center items-center mt-4 md:space-x-4">
-                <a href="https://linkedin.com/in/jhanvi-jani" target="_blank" class="bg-cyan-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-cyan-500 transition-all transform hover:scale-105">
-                    LinkedIn
-                </a>
-            </div>
+            <a href="https://linkedin.com/in/jhanvi-jani" target="_blank" class="inline-block bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-4 px-12 rounded-full transition-all transform hover:scale-105">
+                Visit My LinkedIn Profile
+            </a>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-[#010409] py-6 text-center text-gray-500 text-sm">
-        &copy; 2025 Jhanvi Jani. All rights reserved.
+    <footer class="bg-[#010409] py-8 text-center text-gray-500 text-sm border-t border-gray-900">
+        &copy; 2026 Jhanvi Jani. Professional Cybersecurity Portfolio.
     </footer>
 </body>
-</html>
