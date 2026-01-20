@@ -73,7 +73,7 @@
   Cybersecurity Specialist | Top 100 Global Performer (Nokia/Women4Cyber) | PMI-RMP® Certified Risk Professional. Dedicated to securing the 5G ecosystem and critical infrastructure through advanced threat modeling and risk mitigation.
 </h1>
 <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 animate-fade-in" style="animation-delay: 0.4s;">
-    "I translate complex regulatory demands (ISO 27001, NIS2) into actionable project deliverables, prioritizing risk mitigation and operational resilience through a finance-backed lens."
+    I translate complex regulatory demands (ISO 27001, NIS2) into actionable project deliverables, prioritizing risk mitigation and operational resilience through a finance-backed lens.
 </p>
             <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4 animate-fade-in" style="animation-delay: 0.6s;">
                 <!-- Connects directly to your LinkedIn profile -->
@@ -93,11 +93,11 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">About Me</h2>
             <div class="max-w-4xl mx-auto text-gray-300 space-y-4">
-    <p>I am a **Cybersecurity GRC Analyst** and Implementer focused on fortifying digital security for Danish businesses. My unique perspective is driven by a strong **Master’s background in Finance and a decade in business operations**, allowing me to approach security as a critical component of risk management and strategic growth.</p>
+    <p>I am a Cybersecurity GRC Analyst and Implementer focused on fortifying digital security for Danish businesses. My unique perspective is driven by a strong Master’s background in Finance and a decade in business operations, allowing me to approach security as a critical component of risk management and strategic growth.</p>
     
-    <p>My expertise lies in **Governance, Risk, and Compliance (GRC)**, with hands-on experience in executing security audits against frameworks like **ISO 27001 and NIST**. I am a proven implementer, having managed security policy deployment and achieving a documented **15% reduction in phishing rates** through targeted awareness programs.</p>
+    <p>My expertise lies in Governance, Risk, and Compliance (GRC), with hands-on experience in executing security audits against frameworks like ISO 27001 and NIST. I am a proven implementer, having managed security policy deployment and achieving a documented **15% reduction in phishing rates** through targeted awareness programs.</p>
     
-    <p>I am actively seeking full-time roles in Copenhagen—particularly within the **BFSI or large enterprise sectors**—where I can leverage my technical certification (e.g., **AZ-500**) and business acumen to drive measurable improvements in compliance and operational resilience.</p>
+    <p>I am actively seeking full-time roles in Copenhagen—particularly within the BFSI or large enterprise sectors, where I can leverage my technical certification (AZ-500) and business acumen to drive measurable improvements in compliance and operational resilience.</p>
 </div>
                 <p>As a cybersecurity analyst with a strong foundation in finance and business operations, I offer a unique perspective on managing and mitigating digital risk. My background in procurement and strategic business management allows me to bridge the gap between technical security controls and their real-world impact on an organization’s bottom line and strategic goals.</p>
                 <p>I specialize in Governance, Risk, and Compliance (GRC), with hands-on experience in implementing frameworks such as ISO 27001 and NIST. In my recent internship, I led security audits that identified key vulnerabilities and contributed to a 15% reduction in phishing rates through targeted awareness programs. I also volunteer as a facilitator at the ReDI School of Digital Integration, helping adults learn foundational cybersecurity skills.</p>
@@ -174,6 +174,12 @@
             <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">Certifications & Professional Development</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Certifications will be here -->
+                <div class="cert-grid">
+  <div class="cert-card">
+    <h4>PMI Risk Management Professional (PMI-RMP)</h4>
+    <p>Mastery in assessing project risks, identifying global threats, and implementing mitigation strategies to capitalize on strategic opportunities.</p>
+  </div>
+</div>
                 <div class="bg-[#161b22] p-6 rounded-lg text-center transform hover:scale-105 transition-transform border border-[#21262d] hover:border-cyan-600">
                     <h3 class="font-semibold text-lg text-white">SANS SEC275: Foundations</h3>
                 </div>
@@ -198,6 +204,16 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold text-center mb-12 text-white section-heading">Projects & Hands-on Experience</h2>
             <div class="max-w-4xl mx-auto space-y-8">
+            <div class="special-achievement">
+  <h3>Top 100 Global Performer | Nokia & Women4Cyber</h3>
+  <p><em>Path to Telecom Security Initiative (2025-2026)</em></p>
+  <ul>
+    <li><strong>Competitive Assessment:</strong> Achieved 87% in a scenario-based exam on 5G ecosystem threat mitigation.</li>
+    <li><strong>SBA Security:</strong> Researched vulnerabilities in HTTP/2, JSON signaling, and API discovery (NRF).</li>
+    <li><strong>Advanced Threat Modeling:</strong> Analyzed attack vectors including SUCI/SUPI catchers, RF Jamming, and Interconnect (N32) risks.</li>
+    <li><strong>Post-Quantum Readiness:</strong> Evaluated 'Harvest Now, Decrypt Later' risks for critical infrastructure.</li>
+  </ul>
+</div>
                 <!-- Mastercard Project -->
                 <div class="bg-[#161b22] p-8 rounded-xl shadow-lg border-2 border-[#21262d] space-y-6 transform transition-all hover:border-cyan-600">
                     <div class="flex items-center space-x-4">
